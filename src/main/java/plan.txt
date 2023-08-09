@@ -1,0 +1,28 @@
+teacher;
+=> not ekleme(+)
+=> sınav tarihi(+)
+--> yeni tablo olusturulacak(+)
+--> tablo (sınav tarihi DATE, DersAdi String)(+)
+--> tablo öğrenci homepage içindeki sınav tarihi bölümüne ekelenecek(+)
+==> sınav tarihi ve ders güncellenebilecek (+)
+
+müdür yrd;
+==> ders programı ekleme(+)
+==> duyuru ekleme(+)
+--> ders programı için 7 gün 6 ders olacak şekilde bir tablo olusturulup tabloya gün,kaçıncı ders oldugu ve
+----> ders ismi yazdırılmalı öğretmenismi(TERCİHE BAĞLI)(+)
+
+==> ders programı öğrenci homepage içindeki ders programı panosuna eklenmeli (-)
+
+müdür; (-)
+==>homepage yapılmalı(-)
+==> öğrenci eklemeli(+)
+==> öğrenci silmeli (+)
+==> öğrenci listelemeli(+)
+==> öğrenci güncellemeli (+)
+==> isim veya soyadı ile öğrenci listelemeli (+)
+
+öğrenci;
+==> notlarını görebilmeli (+)
+==> duyuruları görebilmeli (+)
+==> ders programı görebilmeli(-)
