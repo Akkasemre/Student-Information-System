@@ -1,9 +1,6 @@
 package AssistantManager;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class AssistantManagerRepository {
     private Connection con;
@@ -91,6 +88,23 @@ public class AssistantManagerRepository {
         }
 
     }
+
+    public void showAnnouncement() {
+        try {
+            String sql = "SELECT announcement FROM t_announcement)";
+            ResultSet resultSet = prst.executeQuery(sql);
+        } catch (SQLException e) {
+            System.err.println(e.getMessage());
+        } finally {
+            try {
+                if (prst != null) prst.close();
+                if (con != null) con.close();
+            } catch (SQLException e) {
+                System.out.println("Error:" + e.getMessage());
+            }
+        }
+    }
+
 
     public void createClassSchedule(String pzt1, String pzt2, String pzt3, String pzt4, String pzt5, String pzt6, String pzt7) {
         getConnection();

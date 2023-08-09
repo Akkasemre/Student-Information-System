@@ -2,6 +2,7 @@ package AssistantManager;
 
 import java.util.Scanner;
 
+
 public class AssistantManagerService {
     Scanner sc = new Scanner(System.in);
     AssistantManagerRepository amr = new AssistantManagerRepository();
@@ -37,4 +38,8 @@ public class AssistantManagerService {
 
         amr.createClassSchedule(pzt1, pzt2, pzt3, pzt4, pzt5, pzt6, pzt7);
     }
+     public void showAnnouncement(){
+        amr.showAnnouncement();
+     }
+
 }

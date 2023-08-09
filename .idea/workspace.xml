@@ -4,29 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2dbcc48-0342-4791-b770-f875b5817773" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage/StudentHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Student/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Student/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teacher/Examdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teacher/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Teacher/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/plan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage/StudentHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+    <list default="true" id="b2dbcc48-0342-4791-b770-f875b5817773" name="Changes" comment="added AsistantManagementHomePage and plan.txt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomePage/TeacherHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AssistantManager/AssistantManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage/AsistantManagementHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage/AsistantManagementHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage/StudentHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage/StudentHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage/StudentHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomePage/StudentHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomePage/StudentHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Teacher/TeacherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Teacher/TeacherRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Teacher/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Teacher/TeacherService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,16 +61,29 @@
       <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java\AssistantManager" />
-      <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java\dsadsa" />
       <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java\HomePage" />
       <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java" />
+      <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java\AssistantManager" />
+      <recent name="C:\Users\PC\IdeaProjects\SutudentInformationSystem\src\main\java\dsadsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.Runner.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="SutudentInformationSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
+      <module name="SutudentInformationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.TestRunner" />
       </list>
@@ -98,9 +112,36 @@
       <option name="presentableId" value="Default" />
       <updated>1690730759552</updated>
     </task>
+    <task id="LOCAL-00001" summary="added AsistantManagementHomePage and plan.txt">
+      <option name="closed" value="true" />
+      <created>1691595121900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691595121900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added AsistantManagementHomePage and plan.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added AsistantManagementHomePage and plan.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SutudentInformationSystem$Runner.ic" NAME="Runner Coverage Results" MODIFIED="1690740804221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SutudentInformationSystem$Runner_Runner.ic" NAME="Runner.Runner Coverage Results" MODIFIED="1691610494631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Runner.*</FILTER>
+    </SUITE>
   </component>
 </project>

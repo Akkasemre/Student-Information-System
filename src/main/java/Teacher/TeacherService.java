@@ -35,6 +35,15 @@ public class TeacherService {
             teacher.updateExamDateLessonName(examdate);
         }
     }
+    public void addGrade(int student_id,double note1,double note2){
+        teacher.addGrade( student_id, note1, note2);
+    }
+    public void showExamDate(){
+        teacher.showExamdate();
+    }
+    public void showGrade(){
+        teacher.showGrade();
+    }
 
 
 

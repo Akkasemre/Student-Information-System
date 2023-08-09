@@ -2,8 +2,19 @@ package HomePage;
 
 import java.util.Scanner;
 
+import AssistantManager.AssistantManagerService;
+import Student.StudentService;
+import Teacher.TeacherService;
+
+
 public class StudentHomePage {
-    public static void homePage() {
+    TeacherService teacherService = new TeacherService();
+    StudentService studentService = new StudentService();
+    AssistantManagerService assistantManagerService = new AssistantManagerService();
+
+    Scanner sc = new Scanner(System.in);
+
+    public void studentHomePage() {
         String ustPanel = "╔═══════════════╗";
         String altPanel = "╚═══════════════╝";
         String s = " ";
@@ -15,25 +26,29 @@ public class StudentHomePage {
         System.out.println(s.repeat(6) + "1-DERS PROGRAMI" + s.repeat(14) + "2-SINAV NOTLARI" + s.repeat(16) + "3-DUYURULAR" + s.repeat(19) + "4-ÇIKIŞ");
         System.out.println(s.repeat(5) + altPanel + s.repeat(12) + altPanel + s.repeat(12) + altPanel + s.repeat(12) + altPanel);
 
-        int select;
-//        do {
-//            Scanner input = new Scanner(System.in);
-//            select = input.nextInt();
-//            switch (select) {
-//                case 1:
-//                    //ders programi yazdiran method
-//                    break;
-//                case 2:
-//                    //sınav notları
-//                case 3:
-//                    //duyurular
-//                    break;
-//                case 4:
-                        //cıkıs
-//                    System.out.println("İYİ GÜNLER");
-//                    break;
-//            }
-//        } while (select != 4);
+        int choice = sc.nextInt();
+
+        if(choice == 4 ){
+
+        }
+        switch (choice) {
+            case 1:
+                //ders programı görme
+                teacherService.showExamDate();
+                break;
+            case 2:
+                //sınav notları görme
+                teacherService.showGrade();
+            case 3:
+                //duyuruları görme
+                assistantManagerService.showAnnouncement();
+            case 4:
+                //çıkış
+
+            default:
+                System.out.println("Yanlış deger girdiniz yeniden deneyin.");
+                break;
+        }
 
 
     }

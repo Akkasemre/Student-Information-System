@@ -189,9 +189,8 @@ public class StudentRepository {
     }
 
     /**
-     * List entered student from database
+     * List entire student from database
      * */
-
     public List<Student> findStudentByNameOrLastName(String nameOrLastName){
         List<Student> list = new ArrayList<>();
         getConnection();

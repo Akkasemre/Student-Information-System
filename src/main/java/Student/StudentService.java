@@ -46,6 +46,17 @@ public class StudentService {
         repository.deleteStudent(id);
     }
 
+    /**
+     *Updates entered student from database
+     */
+
+    public void updateEnteredStudent(Student student){
+        repository.updateStudent(student);
+    }
+
+    public Student findStudentById(int id){
+        return repository.findStudentById(id);
+    }
 
 
 
